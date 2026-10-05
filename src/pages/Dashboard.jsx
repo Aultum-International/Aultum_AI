@@ -24,9 +24,9 @@ const businesses = [
     title: "VoteBanker",
     subtitle: "Global leadership accelerator for political leaders",
     description:
-      "VoteBanker is a global leadership accelerator that empowers political leaders with digital identity, Virtual Relationship Management System, AI, Meta, websites, campaigns, communication, analytics, and tools to build and manage their political ecosystem.",
+      "VoteBanker is a global leadership accelerator that empowers political leaders with digital identity, Voter Relationship Management System, AI, Meta, websites, campaigns, communication, analytics, and tools to build and manage their political ecosystem.",
     image: voteBankerLogo,
-    link: "https://votebanker.com/",
+    link: null,
   },
   {
     title: "Deltapreneur",
@@ -62,10 +62,13 @@ const Dashboard = () => {
         </h1>
 
         <div className="relative mt-10 grid max-w-2xl grid-cols-[96px_1fr] gap-4 border border-zinc-200 bg-[#f8f8f8] p-4 sm:ml-auto">
-          <img src={founderPhoto} alt="Akkole" className="h-24 w-24 object-cover grayscale transition duration-500 hover:grayscale-0" />
+          <img src={founderPhoto} alt="Akkole" className="h-24 w-24 rounded-xl object-cover grayscale transition duration-500 hover:grayscale-0" />
           <div>
             <p className="text-lg font-bold text-purple-700">
               A note from our Founder, Neminath
+            </p>
+            <p className="mt-1 text-sm italic text-zinc-600">
+              &quot;Building something, with someone, somehow.&quot;
             </p>
             <Link to="/founder-note" className="mt-2 inline-block border-b border-zinc-800 text-sm text-zinc-900">
               Read more
@@ -111,9 +114,9 @@ const Dashboard = () => {
               </p>
 
               <a 
-                href={business.link}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={business.link || undefined}
+                target={business.link ? "_blank" : undefined}
+                rel={business.link ? "noopener noreferrer" : undefined}
                 className="feature-button"
               >
                 <span>Explore</span>
@@ -151,7 +154,7 @@ const Dashboard = () => {
               </span>
               <h2 className="text-4xl font-bold tracking-tight text-zinc-950 md:text-5xl">Our mission</h2>
             </div>
-            <div className="mt-3 h-1.5 w-20 bg-[#8094f4]" />
+            <div className="mt-3 h-1.5 w-20 bg-cyan-700" />
             <p className="mt-7 text-lg leading-relaxed text-zinc-700 md:text-xl">
               We do not just build companies; we build interconnected infrastructure. Our 17 years in heavy machinery
               provide the discipline for Deltapreneur&apos;s doorstep model, while our digital automation expertise brings
@@ -190,7 +193,7 @@ const Dashboard = () => {
 
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
         <div className="grid items-center gap-10 lg:grid-cols-2">
-          <div className="mx-auto w-full max-w-[440px] overflow-hidden border border-zinc-200 bg-white">
+          <div className="mx-auto w-full max-w-[440px] overflow-hidden rounded-2xl border border-zinc-200 bg-white">
             <img
               src={teamWorkingImage}
               alt="Team working at Aultum"
@@ -201,8 +204,9 @@ const Dashboard = () => {
             <h2 className="text-4xl font-semibold text-zinc-950 md:text-5xl">Working at Aultum</h2>
             <div className="mt-2 h-1 w-16 bg-blue-400" />
             <p className="mt-5 text-lg leading-relaxed text-zinc-700 md:text-xl">
-              This place is designed to make you feel comfortable, so you can
-              keep growing, thinking bigger, and executing with discipline.
+              We cultivate an environment of trust and clarity, where every
+              individual is empowered to grow, think boldly, and execute with
+              discipline.
             </p>
             <Link to="/culture" className="mt-8 inline-block bg-zinc-950 px-6 py-3 text-sm font-medium text-white transition hover:bg-zinc-800">
               Learn more about our culture
