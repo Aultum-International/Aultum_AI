@@ -13,7 +13,7 @@ export default function Footer() {
         <div>
           <h4 className="mb-4 text-sm font-semibold text-zinc-900">Our businesses</h4>
           <ul className="space-y-2 text-sm text-zinc-600">
-            <li><Link to="/cobrother" className="relative hover:text-zinc-900 transition duration-300 after:absolute after:bottom-0 after:right-0 after:h-0.5 after:w-0 after:bg-purple-700 after:transition-all after:duration-300 hover:after:w-full">CoBrother</Link></li>
+            <li><Link to="/cobrother" className="relative hover:text-zinc-900 transition duration-300 after:absolute after:bottom-0 after:right-0 after:h-0.5 after:w-0 after:bg-purple-700 after:transition-all after:duration-300 hover:after:w-full">Deltapreneur</Link></li>
             {/* <li>Aultum International</li> */}
             <li><Link to="/gray-material" className="relative hover:text-zinc-900 transition duration-300 after:absolute after:bottom-0 after:right-0 after:h-0.5 after:w-0 after:bg-purple-700 after:transition-all after:duration-300 hover:after:w-full">Gray Material</Link></li>
             {/* <li>Mineral Intelligence</li> */}

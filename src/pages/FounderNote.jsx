@@ -1,5 +1,5 @@
 import React from "react";
-import founderPhoto from "../assets/neminath-founder.png";
+import founderPhoto from "../assets/neminath-founder.jpeg";
 
 const FounderNote = () => {
   return (
@@ -34,7 +34,7 @@ const FounderNote = () => {
           </p>
 
           <p>
-            Aultum International and CoBrother were not born out of a desire for a &quot;tech exit&quot; or a pursuit of
+            Aultum International and Deltapreneur were not born out of a desire for a &quot;tech exit&quot; or a pursuit of
             academic pedigree. Like many of the best things in life, they were born out of a simple, almost accidental
             spirit of service. I saw the &quot;tech-wary&quot; grassroots entrepreneur, the shopkeeper, the small-scale
             industrialist, the dreamer from an ordinary background, struggling to bridge the gap between their physical
@@ -48,7 +48,7 @@ const FounderNote = () => {
 
           <p>
             Today, we find ourselves at a tipping point. We are moving beyond simple e-commerce into a new era of
-            &quot;meaningful and disruptive&quot; ecosystems. CoBrother.com is my answer to this shift. It is a
+            &quot;meaningful and disruptive&quot; ecosystems. Deltapreneur is my answer to this shift. It is a
             &quot;Done-For-Me&quot; (DFM) mission designed to provide the automation, branding, and partnership that
             South Asian entrepreneurs need to move from simple consumption to disruptive ownership.
           </p>
@@ -61,7 +61,7 @@ const FounderNote = () => {
           </p>
 
           <p>
-            In this spirit of evolution, we are refining our identity. While CoBrother remains our flagship for the
+            In this spirit of evolution, we are refining our identity. While Deltapreneur remains our flagship for the
             entrepreneur, Aultum represents our higher ambition: the &quot;Vertical Mineral Intelligence&quot; and the
             industrial-scale infrastructure that anchors everything we do.
           </p>
@@ -84,7 +84,7 @@ const FounderNote = () => {
           <p className="pt-2 text-zinc-900">
             Neminath
             <br />
-            Founder &amp; CEO, Aultum International | CoBrother.com
+            Founder &amp; CEO, Aultum International
           </p>
         </article>
       </section>

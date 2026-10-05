@@ -2,23 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Compass, Goal, TrendingUp, BarChart3, Layers3, ArrowUpRight, ArrowRight } from "lucide-react";
 import "./../components/FeatureCard.css";
-import founderPhoto from "../assets/neminath-founder.png";
+import founderPhoto from "../assets/neminath-founder.jpeg";
 import workflowImage from "../assets/workflow.png";
 import teamWorkingImage from "../assets/Team_Working.png";
 import performanceRandomThree from "../assets/performance-random-3.png";
-import coBrotherLogo from "../assets/Cobrother_Green.png";
+import deltapreneurLogo from "../assets/Deltapreneur_main_logo.png";
+import voteBankerLogo from "../assets/VOTE BANKER -logo.png";
 import battrifyLogo from "../assets/Logo.webp";
 import grayMaterialLogo from "../assets/gray-material.png";
 
 const businesses = [
-  {
-    title: "CoBrother",
-    subtitle: "Doorstep services with industrial discipline",
-    description:
-      "The Digital Bridge: CoBrother empowers grassroots South Asian entrepreneurs with domains, branding, automation, and practical business acceleration.",
-    image: coBrotherLogo,
-    link: "https://cobrother.com/",
-  },
   {
     title: "Gray Material",
     subtitle: "Gray Material",
@@ -26,6 +19,22 @@ const businesses = [
       "The Physical Foundation: Gray Material delivers standardized quality in industrial aggregates, backed by Vertical Mineral Intelligence and initiatives like Lab-on-Wheels.",
     image: grayMaterialLogo,
     link: "https://www.graymaterial.com/",
+  },
+  {
+    title: "VoteBanker",
+    subtitle: "Global leadership accelerator for political leaders",
+    description:
+      "VoteBanker is a global leadership accelerator that empowers political leaders with digital identity, Virtual Relationship Management System, AI, Meta, websites, campaigns, communication, analytics, and tools to build and manage their political ecosystem.",
+    image: voteBankerLogo,
+    link: "https://votebanker.com/",
+  },
+  {
+    title: "Deltapreneur",
+    subtitle: "Doorstep services with industrial discipline",
+    description:
+      "The Digital Bridge: Deltapreneur empowers grassroots South Asian entrepreneurs with domains, branding, automation, and practical business acceleration.",
+    image: deltapreneurLogo,
+    link: "https://cobrother.com/",
   },
   // {
   //   title: "Battrify",
@@ -70,7 +79,7 @@ const Dashboard = () => {
         <div className="mt-2 h-1 w-16 bg-blue-400" />
         <p className="mt-5 max-w-5xl text-lg leading-relaxed text-zinc-700 md:text-xl">
           We do not just build companies; we build an interconnected infrastructure. Our 17 years of experience in
-          heavy machinery provides the logistical discipline needed to run CoBrother&apos;s doorstep services.
+          heavy machinery provides the logistical discipline needed to run Deltapreneur&apos;s doorstep services.
           Conversely, our digital automation expertise allows us to bring unprecedented Mineral Intelligence to the
           traditional world of Gray Material.
         </p>
@@ -145,7 +154,7 @@ const Dashboard = () => {
             <div className="mt-3 h-1.5 w-20 bg-[#8094f4]" />
             <p className="mt-7 text-lg leading-relaxed text-zinc-700 md:text-xl">
               We do not just build companies; we build interconnected infrastructure. Our 17 years in heavy machinery
-              provide the discipline for CoBrother&apos;s doorstep model, while our digital automation expertise brings
+              provide the discipline for Deltapreneur&apos;s doorstep model, while our digital automation expertise brings
               Mineral Intelligence to the traditional world of Gray Material.
             </p>
           </article>
@@ -192,7 +201,7 @@ const Dashboard = () => {
             <h2 className="text-4xl font-semibold text-zinc-950 md:text-5xl">Working at Aultum</h2>
             <div className="mt-2 h-1 w-16 bg-blue-400" />
             <p className="mt-5 text-lg leading-relaxed text-zinc-700 md:text-xl">
-              This place is designed to make you feel uncomfortable, so you can
+              This place is designed to make you feel comfortable, so you can
               keep growing, thinking bigger, and executing with discipline.
             </p>
             <Link to="/culture" className="mt-8 inline-block bg-zinc-950 px-6 py-3 text-sm font-medium text-white transition hover:bg-zinc-800">

@@ -10,7 +10,7 @@ const Impact = () => {
           We are showing that people from ordinary backgrounds, armed with nothing but conviction, can create large-scale impact.
         </p>
         <p className="mt-6 max-w-4xl text-lg leading-relaxed text-zinc-700 md:text-xl">
-          Through CoBrother, we empower grassroots South Asian entrepreneurs with domains, branding, automation, and practical business acceleration.
+          Through Deltapreneur, we empower grassroots South Asian entrepreneurs with domains, branding, automation, and practical business acceleration.
         </p>
         <p className="mt-6 max-w-4xl text-lg leading-relaxed text-zinc-700 md:text-xl">
           Through Gray Material, we deliver standardized quality in industrial aggregates, backed by Vertical Mineral Intelligence.
